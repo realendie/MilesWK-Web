@@ -1,4 +1,4 @@
-# MilesWK
+# www.mileswk.com
 
 This is the source code for [https://www.mileswk.com/](https://www.mileswk.com/). I used [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/) and [GSAP](https://gsap.com/) for the animations and scroll behavior. 
 
