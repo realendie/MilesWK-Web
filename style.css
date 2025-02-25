@@ -1,0 +1,292 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  
+  
+  
+  .navbar {
+    backdrop-filter: blur(15px);
+    border-bottom: 2px solid gray;
+    height: 80px;
+    width: 100%;
+    z-index: 99999999999999999999;
+    
+  }
+  
+  .navbar .logo {
+    height: 60px;
+    padding: 10px;
+  
+  
+    float: left;
+  }
+  
+  .navbar .navlinks {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    float: right;
+    padding-right: 20px;
+    padding-top: 30px;
+    
+  }
+  
+  .navbar .navlink {
+    color: #fefefe;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: right;
+    text-underline-offset: 5px;
+    transition: text-underline-offset 0.1s ease;
+  }
+  
+  .navbar .navlink:hover {
+    text-underline-offset: 10px;
+  }
+  .intro {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: -100;
+    
+  }
+  
+  .mileswk {
+    font-family: sans-serif;
+    font-size: 20px;
+    background: linear-gradient(to right, white, blue);
+    background-clip: text;
+  
+    color: transparent;
+    
+  }
+  
+  .mileswk-container {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #2d2d2d;
+  }
+  ::selection {
+    background: blue;
+  }
+  
+  .superspacer, .superspacer2 {
+    height: 50px;
+  }
+  
+  
+  
+  .aboutme {
+    background-color: black;
+    color: white;
+    border: 3px solid #2d2d2d;
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    max-width: 300px;
+    transition: margin 2s ease;
+  }
+  
+  
+  
+  .me{  
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+  
+  .programmingstack {  text-align: center;}
+  
+  .panelcontainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .spacer {
+    height: 200px;
+  }
+  
+  .arrow {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .arrowcontainer {
+      text-align: center;
+    padding: 10px;
+    background-color: black;cursor: default;
+  }
+  
+  
+  
+  
+  .stackitem {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  
+  }
+  
+  .stackspacer {
+    height: 30px;
+    background-color: black;
+  }
+  
+  #loader {
+      border: 12px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 12px solid #444444;
+      width: 70px;
+      height: 70px;
+      animation: spin 1s linear infinite;
+  }
+  
+  .center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  
+  @keyframes spin {
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+  
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  
+  .meblog {
+    color: white;
+    font-family: monospace;
+  }
+  
+  .blogurl {
+      background: linear-gradient(to right, red, blue);
+    background-clip: text;
+  
+    color: transparent;
+  }
+  
+  .things {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .something {
+    text-decoration: none;
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: padding 1s ease;
+  }
+  .something:hover {
+    padding: 50px;
+  }
+  
+  .thing1 {
+      background: linear-gradient(-45deg, red, blue);
+  }
+  
+  .thing2 {
+      background: linear-gradient(45deg, blue, aqua);
+  }
+  
+  .thing3 {
+      background: linear-gradient(-100deg, aqua, red);
+  }
+  
+  
+  
+  .meblogtext {
+    text-align: center;
+      font-size: 20px;
+  
+  }
+  
+  .projecticon {
+    font-size: 30px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .panelcontainer {
+      display: grid;
+    }
+    .aboutme {
+      width: auto;
+    }
+    .spacer {
+      height: 200px;
+    }
+  
+    .things {
+      align-items: default;
+      display: grid;
+    }
+  
+  }
+  
+  .projectname {font-size: 20px}
+  .projectname a {color: white; text-decoration: none;}
+  
+  .blog {
+    font-size: 16px;
+  
+  }
+  
+  .footer {
+      backdrop-filter: blur(15px);
+    text-align: center;
+    font-family: sans-serif;
+    color: white; 
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid gray;
+    height: 80px;
+    width: 100%;
+    z-index: 99999999999999999999;
+  }
+  
+  #endtrigger {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #endtrigger a {
+    color: white;
+  }
+  
+  .projectspacer {
+    height: 200px;
+  }
+  
+  .blankproject {z-index: 1}
+  .projecttop {z-index: 99999999999999}
