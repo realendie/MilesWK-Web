@@ -4,8 +4,7 @@ body, html {
     background-color: black;
   }
   
-  
-  
+  /* Navbar */
   .navbar {
     backdrop-filter: blur(15px);
     border-bottom: 2px solid gray;
@@ -18,8 +17,6 @@ body, html {
   .navbar .logo {
     height: 60px;
     padding: 10px;
-  
-  
     float: left;
   }
   
@@ -47,6 +44,9 @@ body, html {
   .navbar .navlink:hover {
     text-underline-offset: 10px;
   }
+
+  /* Main Section */
+
   .intro {
     color: white;
     font-size: 20px;
@@ -79,7 +79,7 @@ body, html {
     height: 50px;
   }
   
-  
+  /* Aboutme Section */
   
   .aboutme {
     background-color: black;
@@ -105,6 +105,8 @@ body, html {
   
   .programmingstack {  text-align: center;}
   
+  /* Other */
+
   .panelcontainer {
     align-items: center;
     display: flex;
