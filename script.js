@@ -97,6 +97,13 @@ tl.from(".stackitem", {
   stagger: 0.4
 });
 
+tl.from(".aboutme_text_div", {
+  y: -100,
+  scale: -1,
+  opacity: 0,
+  duration: 10,
+  stagger: 0.4
+});
 
 // A pause before going on with the rest of the website.
 tl.from(".pausebeforecontinuing", {
